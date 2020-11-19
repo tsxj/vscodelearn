@@ -4,7 +4,7 @@ using   namespace std;
 int main(int argc, char** argv)
 {
 
-      cout<<"this is a test"<<endl;
+     // cout<<"this is a test"<<endl;
       int N=100;
       int sum=0;
       int i=1;
