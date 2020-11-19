@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp
+iostream
+-
+
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp
+
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp
+

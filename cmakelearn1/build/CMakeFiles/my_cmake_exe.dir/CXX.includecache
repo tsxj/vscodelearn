@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/display.h
+
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn1/main.cpp
+display.h
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn1/display.h
+iostream
+-
+
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn1/src/display.cpp
+display.h
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn1/src/display.h
+iostream
+-
+
