@@ -1,0 +1,31 @@
+{
+     "options": {
+         "cwd": "${workspaceFolder}"
+     },
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "crosscompile",  // 这个标签和launch中 "preLaunchTask": "crosscompile",一致
+           // "command": "/usr/bin/gcc",  // 编译得到linux 下运行程序
+           "command": "/home/wsx/work/gcc-3.4.5-glibc-2.3.6/bin/arm-linux-gcc",// 利用交叉编译器生成arm中运行的程序
+            "args": [
+                "-g",
+                "${file}",  // 依赖文件
+                "-o",
+                "${workspaceFolder}/arm_platform_exe"
+            ],
+            //"options": {
+               // "cwd": "/usr/bin"
+           // },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generated task by Debugger"
+        }
+    ],
+    "version": "2.0.0"
+}

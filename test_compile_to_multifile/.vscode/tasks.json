@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+           
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+            "type": "cppbuild",
+            "label": "C/C++: gcc build active file",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "${file}  src/${file}",
+                "-Iinclude",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generated task by Debugger"
+        }
+    ],
+    "version": "2.0.0"
+}
