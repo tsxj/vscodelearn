@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wsx/work/test/vscodelearn/arm-linux-gcc/newproject/main.c
+stdio.h
+-
+
+/home/wsx/work/test/vscodelearn/arm-linux-gcc/newproject/src/Gun.c
+
+/home/wsx/work/test/vscodelearn/arm-linux-gcc/newproject/src/Soilger.c
+

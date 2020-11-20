@@ -1,0 +1,3 @@
+/home/wsx/work/test/vscodelearn/arm-linux-gcc/newproject/build/CMakeFiles/rebuild_cache.dir
+/home/wsx/work/test/vscodelearn/arm-linux-gcc/newproject/build/CMakeFiles/helloworld_cmake_arm_exe.dir
+/home/wsx/work/test/vscodelearn/arm-linux-gcc/newproject/build/CMakeFiles/edit_cache.dir

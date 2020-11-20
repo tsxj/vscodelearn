@@ -1,0 +1,1 @@
+arm-linux-gcc    -Wall  -g  -O2 -g  -rdynamic CMakeFiles/helloworld_cmake_arm_exe.dir/main.c.o CMakeFiles/helloworld_cmake_arm_exe.dir/src/Gun.c.o CMakeFiles/helloworld_cmake_arm_exe.dir/src/Soilger.c.o  -o helloworld_cmake_arm_exe 
