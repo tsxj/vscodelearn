@@ -1,0 +1,3 @@
+/home/wsx/work/test/vscodelearn/c_make/soliger_gun/build/CMakeFiles/rebuild_cache.dir
+/home/wsx/work/test/vscodelearn/c_make/soliger_gun/build/CMakeFiles/soilgerfire_cmake_exe.dir
+/home/wsx/work/test/vscodelearn/c_make/soliger_gun/build/CMakeFiles/edit_cache.dir

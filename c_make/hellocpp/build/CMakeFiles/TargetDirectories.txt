@@ -1,0 +1,3 @@
+/home/wsx/work/test/vscodelearn/c_make/hellocpp/build/CMakeFiles/rebuild_cache.dir
+/home/wsx/work/test/vscodelearn/c_make/hellocpp/build/CMakeFiles/helloworld_cmake_g++_exe.dir
+/home/wsx/work/test/vscodelearn/c_make/hellocpp/build/CMakeFiles/edit_cache.dir

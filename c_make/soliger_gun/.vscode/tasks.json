@@ -1,0 +1,46 @@
+{// 这样配置，就是为了实现自动编译，而不用手动编译。这样就实现了自动调试。调试前先预先编译
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build"
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                ".."
+            ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": []
+        },
+        {
+             "label": "tishi",
+          "command":["echo"],
+          "args": ["helloworld"]
+        },
+        {
+            "label": "directrory",
+         "command":["tree"],
+         "args": []
+       },
+        {
+            "label": "Build", // 相当于.bat 命令名
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "cmake",
+                "make",
+                "tishi",
+                "directrory"
+
+            ]
+        }
+    ]
+}

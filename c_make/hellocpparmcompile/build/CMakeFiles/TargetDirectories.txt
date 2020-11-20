@@ -1,0 +1,3 @@
+/home/wsx/work/test/vscodelearn/c_make/hellocpparmcompile/build/CMakeFiles/rebuild_cache.dir
+/home/wsx/work/test/vscodelearn/c_make/hellocpparmcompile/build/CMakeFiles/helloworld_cmake_arm_exe.dir
+/home/wsx/work/test/vscodelearn/c_make/hellocpparmcompile/build/CMakeFiles/edit_cache.dir

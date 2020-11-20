@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/swap.h
+iostream
+-
+
+/home/wsx/work/test/vscodelearn/c_make/cppproject/main.cpp
+swap.h
+/home/wsx/work/test/vscodelearn/c_make/cppproject/swap.h
+
+/home/wsx/work/test/vscodelearn/c_make/cppproject/src/swap.cpp
+swap.h
+/home/wsx/work/test/vscodelearn/c_make/cppproject/src/swap.h
+
