@@ -10,7 +10,7 @@ int main(int argc, char** argv)
       int i=1;
       while(i<N)
       {
-          sum+=i; //this  dse de eq 
+          sum+=i; //这个是可编辑的那边 ,左边还没该
           i=i+1;
           cout<<"zonghe="<<sum<<endl;
       }
