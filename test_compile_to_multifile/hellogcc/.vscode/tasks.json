@@ -8,12 +8,12 @@
     "tasks": [
         {
             "label": "crosscompile", // 任务名称，与launch.json的preLaunchTask相对应
-            
-            "command": "/home/wsx/work/gcc-3.4.5-glibc-2.3.6/bin/arm-linux-gcc", // 要使用的编译器, C++就写g++
-         //  "command": "gcc",   // 生成在linux 下可执行程序
+            //
+            //"command": "/home/wsx/work/gcc-3.4.5-glibc-2.3.6/bin/arm-linux-gcc", // 要使用的编译器, C++就写g++
+            "command": "gcc",   // 生成在linux 下可执行程序
             "args": [
                 "-g",
-                // "-m32",  // 这个在编译输出linunx 平台下可执行程序时用到
+                "-m32",
                 // "${file}",     // 这样写的意思是当前工程中的active file
                 "hello.c",  // 这样写没跑了，就是当前目录下的这个文件
                 "src/test.c",  // 这个参数集中每一项分别对应命令行中的每一项
