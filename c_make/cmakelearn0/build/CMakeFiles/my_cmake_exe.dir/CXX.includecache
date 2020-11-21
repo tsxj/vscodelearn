@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp
+../include/Gun.h
 iostream
 -
 
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp
+Gun.h
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/Gun.h
+
 /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp
+Gun.h
+/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.h
 
 /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp
 
