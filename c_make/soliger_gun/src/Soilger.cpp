@@ -2,7 +2,8 @@
 
 Soilger::Soilger(string name)
 {
-    this->_name=name;
+  //  this->_name=name;
+    _name=name;
     this->_ptr_gun=nullptr;
 }
 

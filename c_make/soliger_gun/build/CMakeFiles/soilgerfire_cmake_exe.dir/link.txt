@@ -1,1 +1,1 @@
-g++     -Wall   -std=c++11 -g  -O2 -g  -rdynamic CMakeFiles/soilgerfire_cmake_exe.dir/main.cpp.o CMakeFiles/soilgerfire_cmake_exe.dir/src/Gun.cpp.o CMakeFiles/soilgerfire_cmake_exe.dir/src/Soilger.cpp.o  -o soilgerfire_cmake_exe 
+g++     -Wall   -std=c++11 -g  -g  -rdynamic CMakeFiles/soilgerfire_cmake_exe.dir/main.cpp.o CMakeFiles/soilgerfire_cmake_exe.dir/src/Gun.cpp.o CMakeFiles/soilgerfire_cmake_exe.dir/src/Soilger.cpp.o  -o soilgerfire_cmake_exe 
