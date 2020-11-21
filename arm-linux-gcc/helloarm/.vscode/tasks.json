@@ -16,7 +16,7 @@
                 // "-m32",  // 这个在编译输出linunx 平台下可执行程序时用到
                 // "${file}",     // 这样写的意思是当前工程中的active file
                 "hello.c",  // 这样写没跑了，就是当前目录下的这个文件
-                "src/test.c",  // 这个参数集中每一项分别对应命令行中的每一项
+                "src/test.c",  // 这个参数集合中每一项分别对应命令行中的每一项
                 "-Iinclude/",
                 "-o", // 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out
                 //  "${fileDirname}/${fileBasenameNoExtension}",  //当前活跃文件夹下生成当前活跃文件名的可执行程序

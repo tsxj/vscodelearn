@@ -60,15 +60,15 @@ include CMakeFiles/my_cmake_exe.dir/flags.make
 CMakeFiles/my_cmake_exe.dir/main.cpp.o: CMakeFiles/my_cmake_exe.dir/flags.make
 CMakeFiles/my_cmake_exe.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_cmake_exe.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_cmake_exe.dir/main.cpp.o -c /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_cmake_exe.dir/main.cpp.o -c /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp
 
 CMakeFiles/my_cmake_exe.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_cmake_exe.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp > CMakeFiles/my_cmake_exe.dir/main.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp > CMakeFiles/my_cmake_exe.dir/main.cpp.i
 
 CMakeFiles/my_cmake_exe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_cmake_exe.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp -o CMakeFiles/my_cmake_exe.dir/main.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/main.cpp -o CMakeFiles/my_cmake_exe.dir/main.cpp.s
 
 CMakeFiles/my_cmake_exe.dir/main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/my_cmake_exe.dir/main.cpp.o.provides.build: CMakeFiles/my_cmake_exe.d
 CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.o: CMakeFiles/my_cmake_exe.dir/flags.make
 CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.o: ../src/Gun.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.o -c /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.o -c /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp
 
 CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp > CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp > CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.i
 
 CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp -o CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Gun.cpp -o CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.s
 
 CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/my_cmake_exe.dir/src/Gun.cpp.o.provides.build: CMakeFiles/my_cmake_ex
 CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.o: CMakeFiles/my_cmake_exe.dir/flags.make
 CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.o: ../src/Soldier.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wsx/work/test/vscodelearn/c_make/cmakelearn0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.o -c /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.o -c /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp
 
 CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp > CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp > CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.i
 
 CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp -o CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsx/work/test/vscodelearn/c_make/cmakelearn0/src/Soldier.cpp -o CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.s
 
 CMakeFiles/my_cmake_exe.dir/src/Soldier.cpp.o.requires:
 

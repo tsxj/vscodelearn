@@ -1,0 +1,62 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}"
+    },
+    "tasks": [
+        { //将src/output.c   生成.o
+            "label": "createO",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-c",
+                "src/output.c", //默认工程目录为母目录
+                "-I",
+                "include",
+                "-Wall",
+                "-o",
+                "src/output.o"
+            ]
+        },
+        { // 由前一步得到的.o 生成静态库文件
+            "label": "createA",
+            "command": [
+                "ar"
+            ],
+            "args": [
+                "rs",
+                "src/liboutput.a",
+                "src/output.o"
+            ]
+        },
+        { //生车可执行文件
+            "label": "createEXE",
+            "command": [
+                "gcc"
+            ],
+            "args": [
+                "-g", //这个参数必须有，保证F5 时，程序定位到断点
+                "main.c",
+                "-Wall",
+                "-I",
+                "include", //当前目录下的include 文件夹
+                "src/liboutput.a",
+                "-std=c99",
+               // "-static-libgcc",
+                "-o",
+                "staticmain"
+            ]
+        },
+        {
+            "label": "debug",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "createO",
+                "createA",
+                "createEXE"
+            ]
+        },
+    ]
+}

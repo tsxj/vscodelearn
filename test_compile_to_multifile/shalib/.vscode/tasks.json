@@ -1,0 +1,58 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}"
+    },
+    "tasks": [
+        {//将src/output.c   生成动态库
+            "label": "createshalib",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "src/output.c",
+                "-I",
+                "include",
+                "-fPIC",
+                "-shared",
+                "-o",
+                "src/libout.so"
+            ]
+        },
+        {// 生成可执行文件
+            "label": "build",
+            "command": [
+                "gcc"
+            ],
+            "args": [
+                "-g",
+                "-Wall",
+                "main.c",
+                "-Iinclude",
+                "src/libout.so",
+                //"src/lib*.so",
+                     "-o",
+                "sharemain"   //在当前工程目录生成可执行程序
+            ]
+        },
+        // {
+        //     "label": "run",
+        //     "command": [
+        //         "LD_LIBRARY_PATH=src  ./sharemain"
+        //     ],
+        //     // "args": [
+        //     //     "sharemain"
+        //     // ]
+        // },
+        {
+            "label": "debug",
+            "dependsOrder": "sequence",
+            "dependsOn":[
+                "createshalib",
+                "build"
+              //"run"
+            ]
+        },
+    ]
+}

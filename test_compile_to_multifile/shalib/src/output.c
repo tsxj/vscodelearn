@@ -4,6 +4,6 @@
 
 void inout()
 {
-    printf("helloworld\n");
+    printf("helloworld,i am inout\n");
 }
 
